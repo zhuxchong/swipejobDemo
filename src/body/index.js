@@ -51,16 +51,14 @@ class Body extends React.Component {
             <p>{workPeriod}</p>
           </DetailDescription>
         </Description>
+
         <DetailTimeTable>
           {/* {console.log(this.props.match.params.id)} */}
           <h1>If you take this job you are agreeing to work ALL DAYS</h1>
-          {this.getListArea().map(i => {
-            return i;
-          })}
           <Button
             type="primary"
             size="small"
-            style={{ width: "60px", textAlign: "center", margin: "5px auto" }}
+            style={{ width: "60px", textAlign: "center", margin: "10px auto" }}
             className="antButton"
             onClick={() => {
               this.props.handChagePage(page, totalPage);
@@ -68,6 +66,9 @@ class Body extends React.Component {
           >
             {`${page}/${totalPage}`}
           </Button>
+          {this.getListArea().map(i => {
+            return i;
+          })}
         </DetailTimeTable>
         <Location>
           <h4>Location</h4>

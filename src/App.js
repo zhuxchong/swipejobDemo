@@ -5,12 +5,14 @@ import Body from "./body";
 import Home from "./home";
 import store from "./store";
 import { Provider } from "react-redux";
+import { GloalStyle } from "./style";
 
 class App extends Component {
   render() {
     return (
       <Fragment>
         <Provider store={store}>
+          <GloalStyle />
           <BrowserRouter>
             <div>
               <Header />
