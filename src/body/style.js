@@ -67,10 +67,12 @@ export const Pict = styled.div`
     flex: 2;
     height: 100px;
   }
+  /*particular for iphone X*/
   @media (max-height: 823px) and (min-height: 736px) {
     height: 140px;
     background-size: 120px 120px;
   }
+  /*particular for ipad*/
   @media (max-height: 1024px) and (min-height: 824px) {
     height: 150px;
     background-size: 130px 130px;
@@ -83,7 +85,7 @@ export const DetailDescription = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  /* for phone deviecs X*/
   @media (max-width: 768px) {
     padding: 1% 1.5%;
     flex: 3;
@@ -101,7 +103,8 @@ export const DetailDescription = styled.div`
       font-size: 11px;
     }
   }
-  @media (max-height: 1025px) and (min-height: 1000px) {
+  /*for pad*/
+  @media (max-height: 1025px) and (min-height: 824px) {
     padding: 1% 1.5%;
     flex: 3;
 
@@ -119,6 +122,7 @@ export const DetailDescription = styled.div`
       color: red;
     }
   }
+  /*particular for iphone X -> full screen devices*/
   @media (max-height: 823px) and (min-height: 667px) {
     padding: 1% 1.5%;
     flex: 3;
@@ -137,6 +141,7 @@ export const DetailDescription = styled.div`
       font-size: 15px;
     }
   }
+  /*particular for ipad pro*/
   @media (max-height: 1366px) and (min-height: 1025px) {
     padding: 1% 1.5%;
     flex: 3;
@@ -187,7 +192,8 @@ export const DetailTimeTable = styled.div`
       line-height: 15px;
     }
   }
-  @media (max-height: 812px) and (min-height: 667px) {
+  /*for iphone x/6/7/8/plus*/
+  @media (max-height: 823px) and (min-height: 667px) {
     p {
       color: gray;
       text-indent: 10px;
@@ -196,6 +202,7 @@ export const DetailTimeTable = styled.div`
       margin-top: 5px;
     }
   }
+  /*for ipad*/
   @media (max-height: 1025px) and (min-height: 812px) {
     h1 {
       font-size: 20px;
@@ -209,6 +216,7 @@ export const DetailTimeTable = styled.div`
       margin-top: 5px;
     }
   }
+  /*for ipad pro*/
   @media (max-height: 1366px) and (min-height: 1026px) {
     h1 {
       font-size: 30px;
@@ -255,6 +263,7 @@ export const Location = styled.div`
     }
   }
 `;
+
 export const Contact = styled.div`
   border-bottom: solid gray 1px;
   width: 100%;
@@ -276,6 +285,7 @@ export const Contact = styled.div`
     color: #0066cc;
     text-decoration: underline;
   }
+  /*for iphone 5*/
   @media (max-width: 375px) {
     padding: 2% 0%;
     h4 {

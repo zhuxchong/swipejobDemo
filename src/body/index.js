@@ -18,7 +18,7 @@ import { actionCreators } from "./store";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
 
-class Body extends React.Component {
+class Body extends React.PureComponent {
   state = {
     id: "5775d8e18a488e6c5bb08c13"
   };
@@ -31,7 +31,6 @@ class Body extends React.Component {
       branch,
       branchPhoneNumber,
       workPeriod,
-
       totalPage,
       page
     } = this.props;
