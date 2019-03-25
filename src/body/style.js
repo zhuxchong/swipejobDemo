@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainWrapper = styled.div`
   width: 1025px;
-
+  /* height:100% */
   margin: 0 auto;
   box-shadow: inset 0 1px 2px 1px #000;
   background: white;
