@@ -81,7 +81,7 @@ export const DetailDescription = styled.div`
     h4 {
       margin: 0;
       font-size: 17px;
-      color: red;
+      color: black;
     }
   }
   /*particular for iphone X -> full screen devices*/
@@ -92,7 +92,7 @@ export const DetailDescription = styled.div`
     p {
       margin: 0;
       font-size: 13px;
-      color: red;
+      color: black;
     }
     h3 {
       margin: 0;

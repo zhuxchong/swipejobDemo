@@ -10,16 +10,21 @@ export const changePage = page => {
 export const getDetail = id => {
   return async dispatch => {
     //normally it url should be "/api/detail.json/:id" or "?jobId=id"
-    await axios
-      .get("/api/detail.json")
-      .then(res => {
-        const result = res.data;
-        const action = dataProcessing(result);
-        dispatch(action);
-      })
-      .catch(e => {
-        console.log(e);
-      });
+    try {
+      await axios
+        .get("/api/detail.json")
+        .then(res => {
+          const result = res.data;
+          const action = dataProcessing(result);
+          dispatch(action);
+        })
+        .catch(e => {
+          console.log(e);
+        });
+    } catch (e) {
+      alert("sth wrong at api");
+      console.log(e);
+    }
   };
 };
 const dataProcessing = r => {
@@ -66,11 +71,7 @@ const dataProcessing = r => {
 
   addList();
   const totalPage = Math.ceil(workHour.length / 4);
-  const modify = (s, e) => {
-    let res = "";
-    res = `${s[0]}, ${s[1]} ${s[2]} - ${e[0]}, ${e[1]} ${e[2]}`;
-    return res;
-  };
+
   const workPeriod = modify(startDate, endDate);
 
   return {
@@ -85,4 +86,9 @@ const dataProcessing = r => {
     workHour: fromJS(workHour),
     totalPage: totalPage
   };
+};
+const modify = (s, e) => {
+  let res = "";
+  res = `${s[0]}, ${s[1]} ${s[2]} - ${e[0]}, ${e[1]} ${e[2]}`;
+  return res;
 };
