@@ -6,10 +6,10 @@ const Description = props => {
     <DescriptionComponent>
       <Pict />
       <DetailDescription>
-        <h3>{title}</h3>
-        <h4>{companyName}</h4>
-        <p>{`$${wagePerHour}/hour`}</p>
-        <p>{workPeriod}</p>
+        <h3 className="title">{title}</h3>
+        <h4 className="companyName">{companyName}</h4>
+        <p className="wagePerHour">{`$${wagePerHour}/hour`}</p>
+        <p className="workPeriod">{workPeriod}</p>
       </DetailDescription>
     </DescriptionComponent>
     //<div>123{console.log(props)}</div>

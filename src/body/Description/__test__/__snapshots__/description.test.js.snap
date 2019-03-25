@@ -1,0 +1,649 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description component should render the component to match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Description
+    companyName="C.D. Barnes and Associates"
+    title="Construction and Releated Workers - General"
+    wagePerHour="$8.38/hour"
+    workPeriod="Mon, Sep 05 - Fri, Sep 16"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef />,
+        <ForwardRef>
+          <h3
+            className="title"
+          >
+            Construction and Releated Workers - General
+          </h3>
+          <h4
+            className="companyName"
+          >
+            C.D. Barnes and Associates
+          </h4>
+          <p
+            className="wagePerHour"
+          >
+            $$8.38/hour/hour
+          </p>
+          <p
+            className="workPeriod"
+          >
+            Mon, Sep 05 - Fri, Sep 16
+          </p>
+        </ForwardRef>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": true,
+            "rules": Array [
+              "
+  height: 200px;
+  flex: 3;
+  background: url(",
+              "test.gif",
+              ");
+  background-size: 180px 180px;
+  background-repeat: no-repeat;
+  background-position: top 50% right 10%;
+  @media (max-width: 768px) {
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top 50% right 40%;
+    flex: 2;
+    height: 120px;
+  }
+  @media (max-width: 370px) {
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top 50% right 40%;
+    flex: 2;
+    height: 100px;
+  }
+  /*particular for iphone X*/
+  @media (max-height: 823px) and (min-height: 736px) {
+    height: 140px;
+    background-size: 120px 120px;
+  }
+  /*particular for ipad*/
+  @media (max-height: 1024px) and (min-height: 824px) {
+    height: 150px;
+    background-size: 130px 130px;
+    background-position: top 50% right 20%;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="title"
+            >
+              Construction and Releated Workers - General
+            </h3>,
+            <h4
+              className="companyName"
+            >
+              C.D. Barnes and Associates
+            </h4>,
+            <p
+              className="wagePerHour"
+            >
+              $$8.38/hour/hour
+            </p>,
+            <p
+              className="workPeriod"
+            >
+              Mon, Sep 05 - Fri, Sep 16
+            </p>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Construction and Releated Workers - General",
+              "className": "title",
+            },
+            "ref": null,
+            "rendered": "Construction and Releated Workers - General",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "C.D. Barnes and Associates",
+              "className": "companyName",
+            },
+            "ref": null,
+            "rendered": "C.D. Barnes and Associates",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "$$8.38/hour/hour",
+              "className": "wagePerHour",
+            },
+            "ref": null,
+            "rendered": "$$8.38/hour/hour",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Mon, Sep 05 - Fri, Sep 16",
+              "className": "workPeriod",
+            },
+            "ref": null,
+            "rendered": "Mon, Sep 05 - Fri, Sep 16",
+            "type": "p",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "rules": Array [
+              "
+  flex: 4;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* for phone deviecs X*/
+  @media (max-width: 768px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 10px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 12px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 11px;
+    }
+  }
+  /*for pad*/
+  @media (max-height: 1025px) and (min-height: 824px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 16px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 17px;
+      color: red;
+    }
+  }
+  /*particular for iphone X -> full screen devices*/
+  @media (max-height: 823px) and (min-height: 667px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 13px;
+      color: red;
+    }
+    h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+  /*particular for ipad pro*/
+  @media (max-height: 1366px) and (min-height: 1025px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 20px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 25px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 25px;
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  width: 100%;
+  padding: 1% 0%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  flex: 3;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef />,
+          <ForwardRef>
+            <h3
+              className="title"
+            >
+              Construction and Releated Workers - General
+            </h3>
+            <h4
+              className="companyName"
+            >
+              C.D. Barnes and Associates
+            </h4>
+            <p
+              className="wagePerHour"
+            >
+              $$8.38/hour/hour
+            </p>
+            <p
+              className="workPeriod"
+            >
+              Mon, Sep 05 - Fri, Sep 16
+            </p>
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bwzfXH",
+              "isStatic": true,
+              "rules": Array [
+                "
+  height: 200px;
+  flex: 3;
+  background: url(",
+                "test.gif",
+                ");
+  background-size: 180px 180px;
+  background-repeat: no-repeat;
+  background-position: top 50% right 10%;
+  @media (max-width: 768px) {
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top 50% right 40%;
+    flex: 2;
+    height: 120px;
+  }
+  @media (max-width: 370px) {
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top 50% right 40%;
+    flex: 2;
+    height: 100px;
+  }
+  /*particular for iphone X*/
+  @media (max-height: 823px) and (min-height: 736px) {
+    height: 140px;
+    background-size: 120px 120px;
+  }
+  /*particular for ipad*/
+  @media (max-height: 1024px) and (min-height: 824px) {
+    height: 150px;
+    background-size: 130px 130px;
+    background-position: top 50% right 20%;
+  }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bwzfXH",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="title"
+              >
+                Construction and Releated Workers - General
+              </h3>,
+              <h4
+                className="companyName"
+              >
+                C.D. Barnes and Associates
+              </h4>,
+              <p
+                className="wagePerHour"
+              >
+                $$8.38/hour/hour
+              </p>,
+              <p
+                className="workPeriod"
+              >
+                Mon, Sep 05 - Fri, Sep 16
+              </p>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Construction and Releated Workers - General",
+                "className": "title",
+              },
+              "ref": null,
+              "rendered": "Construction and Releated Workers - General",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "C.D. Barnes and Associates",
+                "className": "companyName",
+              },
+              "ref": null,
+              "rendered": "C.D. Barnes and Associates",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "$$8.38/hour/hour",
+                "className": "wagePerHour",
+              },
+              "ref": null,
+              "rendered": "$$8.38/hour/hour",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mon, Sep 05 - Fri, Sep 16",
+                "className": "workPeriod",
+              },
+              "ref": null,
+              "rendered": "Mon, Sep 05 - Fri, Sep 16",
+              "type": "p",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": true,
+              "rules": Array [
+                "
+  flex: 4;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* for phone deviecs X*/
+  @media (max-width: 768px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 10px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 12px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 11px;
+    }
+  }
+  /*for pad*/
+  @media (max-height: 1025px) and (min-height: 824px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 16px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 17px;
+      color: red;
+    }
+  }
+  /*particular for iphone X -> full screen devices*/
+  @media (max-height: 823px) and (min-height: 667px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 13px;
+      color: red;
+    }
+    h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+  /*particular for ipad pro*/
+  @media (max-height: 1366px) and (min-height: 1025px) {
+    padding: 1% 1.5%;
+    flex: 3;
+
+    p {
+      margin: 0;
+      font-size: 20px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 25px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 25px;
+    }
+  }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  width: 100%;
+  padding: 1% 0%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  flex: 3;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

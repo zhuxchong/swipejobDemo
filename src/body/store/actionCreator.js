@@ -46,12 +46,17 @@ const dataProcessing = r => {
         .slice(0, 3);
 
       let hour = new Date(i.startDate).getHours();
+      let min = new Date(i.startDate).getMinutes().toString();
+      if (min.length === 1) {
+        min = "0" + min;
+      }
+
       //let mintue = new Date(i.startDate).getMinutes();
       if (hour < 12) {
-        let result = `${hour} AM`;
+        let result = `${hour}:${min} AM AEST`;
         date.push(result);
       } else {
-        let result = `${hour - 12} PM`;
+        let result = `${hour - 12}:${min} PM AEST`;
         date.push(result);
       }
       workHour.push(date);

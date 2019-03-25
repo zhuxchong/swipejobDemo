@@ -5,8 +5,8 @@ const Contact = props => {
   return (
     <ContactWrapper>
       <h4>Branch</h4>
-      <h4>{branch}</h4>
-      <p>{`(${branchPhoneNumber}) 922-4240`} </p>
+      <h4 className="branch">{branch}</h4>
+      <p className="branchPhoneNumber">{`(${branchPhoneNumber}) 922-4240`} </p>
     </ContactWrapper>
     //<div>123{console.log(props)}</div>
   );

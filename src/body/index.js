@@ -18,9 +18,6 @@ import { Link } from "react-router-dom";
 //import Title from "antd/lib/skeleton/Avatar";
 
 class Body extends React.PureComponent {
-  state = {
-    id: "5775d8e18a488e6c5bb08c13"
-  };
   render() {
     const {
       title,

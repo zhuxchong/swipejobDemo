@@ -1,0 +1,562 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailTimeTable component should render the component to match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DetailTimeTable
+    handChagePage={[MockFunction]}
+    handleChagePage={[MockFunction]}
+    page={1}
+    totalPage={3}
+    workHour={
+      Array [
+        Array [
+          "Mon",
+          "Sep",
+          "05",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+        Array [
+          "Tue",
+          "Sep",
+          "06",
+          "7 AM",
+        ],
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h1>
+          If you take this job you are agreeing to work ALL DAYS
+        </h1>,
+        <Button
+          block={false}
+          className="antButton"
+          ghost={false}
+          loading={false}
+          onClick={[Function]}
+          size="small"
+          style={
+            Object {
+              "margin": "10px auto",
+              "textAlign": "center",
+              "width": "60px",
+            }
+          }
+          type="primary"
+        >
+          1/3
+        </Button>,
+        Array [
+          <p
+            className="detailTime"
+          >
+            Mon, Sep 05 7 AM
+          </p>,
+          <p
+            className="detailTime"
+          >
+            Tue, Sep 06 7 AM
+          </p>,
+          <p
+            className="detailTime"
+          >
+            Tue, Sep 06 7 AM
+          </p>,
+          <p
+            className="detailTime"
+          >
+            Tue, Sep 06 7 AM
+          </p>,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "If you take this job you are agreeing to work ALL DAYS",
+        },
+        "ref": null,
+        "rendered": "If you take this job you are agreeing to work ALL DAYS",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "block": false,
+          "children": "1/3",
+          "className": "antButton",
+          "ghost": false,
+          "loading": false,
+          "onClick": [Function],
+          "size": "small",
+          "style": Object {
+            "margin": "10px auto",
+            "textAlign": "center",
+            "width": "60px",
+          },
+          "type": "primary",
+        },
+        "ref": null,
+        "rendered": "1/3",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Mon,Sep,05,7 AM",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Mon, Sep 05 7 AM",
+          "className": "detailTime",
+        },
+        "ref": null,
+        "rendered": "Mon, Sep 05 7 AM",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "Tue,Sep,06,7 AM",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Tue, Sep 06 7 AM",
+          "className": "detailTime",
+        },
+        "ref": null,
+        "rendered": "Tue, Sep 06 7 AM",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "Tue,Sep,06,7 AM",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Tue, Sep 06 7 AM",
+          "className": "detailTime",
+        },
+        "ref": null,
+        "rendered": "Tue, Sep 06 7 AM",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "Tue,Sep,06,7 AM",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Tue, Sep 06 7 AM",
+          "className": "detailTime",
+        },
+        "ref": null,
+        "rendered": "Tue, Sep 06 7 AM",
+        "type": "p",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  width: 100%;
+  background-color: transparent;
+  padding: 1% 0%;
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  p {
+    text-align: center;
+    line-height: 25px;
+    margin: 0%;
+    font-size: 18px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20;
+  }
+  @media (max-width: 768px) {
+    padding: 1% 0%;
+    h1 {
+      font-size: 15px;
+      margin-bottom: 0px;
+    }
+    p {
+      color: gray;
+      text-indent: 10px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  /*for iphone x/6/7/8/plus*/
+  @media (max-height: 823px) and (min-height: 667px) {
+    p {
+      color: gray;
+      text-indent: 10px;
+      font-size: 18px;
+      line-height: 20px;
+      margin-top: 5px;
+    }
+  }
+  /*for ipad*/
+  @media (max-height: 1025px) and (min-height: 812px) {
+    h1 {
+      font-size: 20px;
+      margin-bottom: 0px;
+    }
+    p {
+      color: gray;
+      text-indent: 10px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 5px;
+    }
+  }
+  /*for ipad pro*/
+  @media (max-height: 1366px) and (min-height: 1026px) {
+    h1 {
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+    p {
+      text-indent: 10px;
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 10px;
+    }
+  }
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h1>
+            If you take this job you are agreeing to work ALL DAYS
+          </h1>,
+          <Button
+            block={false}
+            className="antButton"
+            ghost={false}
+            loading={false}
+            onClick={[Function]}
+            size="small"
+            style={
+              Object {
+                "margin": "10px auto",
+                "textAlign": "center",
+                "width": "60px",
+              }
+            }
+            type="primary"
+          >
+            1/3
+          </Button>,
+          Array [
+            <p
+              className="detailTime"
+            >
+              Mon, Sep 05 7 AM
+            </p>,
+            <p
+              className="detailTime"
+            >
+              Tue, Sep 06 7 AM
+            </p>,
+            <p
+              className="detailTime"
+            >
+              Tue, Sep 06 7 AM
+            </p>,
+            <p
+              className="detailTime"
+            >
+              Tue, Sep 06 7 AM
+            </p>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "If you take this job you are agreeing to work ALL DAYS",
+          },
+          "ref": null,
+          "rendered": "If you take this job you are agreeing to work ALL DAYS",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "block": false,
+            "children": "1/3",
+            "className": "antButton",
+            "ghost": false,
+            "loading": false,
+            "onClick": [Function],
+            "size": "small",
+            "style": Object {
+              "margin": "10px auto",
+              "textAlign": "center",
+              "width": "60px",
+            },
+            "type": "primary",
+          },
+          "ref": null,
+          "rendered": "1/3",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Mon,Sep,05,7 AM",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Mon, Sep 05 7 AM",
+            "className": "detailTime",
+          },
+          "ref": null,
+          "rendered": "Mon, Sep 05 7 AM",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "Tue,Sep,06,7 AM",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tue, Sep 06 7 AM",
+            "className": "detailTime",
+          },
+          "ref": null,
+          "rendered": "Tue, Sep 06 7 AM",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "Tue,Sep,06,7 AM",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tue, Sep 06 7 AM",
+            "className": "detailTime",
+          },
+          "ref": null,
+          "rendered": "Tue, Sep 06 7 AM",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "Tue,Sep,06,7 AM",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tue, Sep 06 7 AM",
+            "className": "detailTime",
+          },
+          "ref": null,
+          "rendered": "Tue, Sep 06 7 AM",
+          "type": "p",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  width: 100%;
+  background-color: transparent;
+  padding: 1% 0%;
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  p {
+    text-align: center;
+    line-height: 25px;
+    margin: 0%;
+    font-size: 18px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20;
+  }
+  @media (max-width: 768px) {
+    padding: 1% 0%;
+    h1 {
+      font-size: 15px;
+      margin-bottom: 0px;
+    }
+    p {
+      color: gray;
+      text-indent: 10px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  /*for iphone x/6/7/8/plus*/
+  @media (max-height: 823px) and (min-height: 667px) {
+    p {
+      color: gray;
+      text-indent: 10px;
+      font-size: 18px;
+      line-height: 20px;
+      margin-top: 5px;
+    }
+  }
+  /*for ipad*/
+  @media (max-height: 1025px) and (min-height: 812px) {
+    h1 {
+      font-size: 20px;
+      margin-bottom: 0px;
+    }
+    p {
+      color: gray;
+      text-indent: 10px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 5px;
+    }
+  }
+  /*for ipad pro*/
+  @media (max-height: 1366px) and (min-height: 1026px) {
+    h1 {
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+    p {
+      text-indent: 10px;
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 10px;
+    }
+  }
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

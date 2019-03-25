@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description component should render the component to match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Location
+    location="123 Main Street, Tacoma, WA 98409"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h4>
+          Location
+        </h4>,
+        <p
+          className="detailLocation"
+        >
+          123 Main Street, Tacoma, WA 98409
+        </p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Location",
+        },
+        "ref": null,
+        "rendered": "Location",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "123 Main Street, Tacoma, WA 98409",
+          "className": "detailLocation",
+        },
+        "ref": null,
+        "rendered": "123 Main Street, Tacoma, WA 98409",
+        "type": "p",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  border-top: solid gray 1px;
+  border-bottom: solid gray 1px;
+  width: 100%;
+  padding: 3% 0%;
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+  h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+  }
+  p {
+    margin: 0;
+    line-height: 20px;
+    text-align: center;
+    color: #0066cc;
+    text-decoration: underline;
+  }
+  @media (max-width: 375px) {
+    padding: 2% 0%;
+    h4 {
+      font-size: 15px;
+      line-height: 12px;
+    }
+    p {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h4>
+            Location
+          </h4>,
+          <p
+            className="detailLocation"
+          >
+            123 Main Street, Tacoma, WA 98409
+          </p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Location",
+          },
+          "ref": null,
+          "rendered": "Location",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "123 Main Street, Tacoma, WA 98409",
+            "className": "detailLocation",
+          },
+          "ref": null,
+          "rendered": "123 Main Street, Tacoma, WA 98409",
+          "type": "p",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  border-top: solid gray 1px;
+  border-bottom: solid gray 1px;
+  width: 100%;
+  padding: 3% 0%;
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+  h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+  }
+  p {
+    margin: 0;
+    line-height: 20px;
+    text-align: center;
+    color: #0066cc;
+    text-decoration: underline;
+  }
+  @media (max-width: 375px) {
+    padding: 2% 0%;
+    h4 {
+      font-size: 15px;
+      line-height: 12px;
+    }
+    p {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

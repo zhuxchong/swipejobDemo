@@ -28,13 +28,16 @@ class DetailTimeTable extends React.Component {
   }
   getListArea = () => {
     const newList = [];
+    //console.log(this.props.workHour);
     if (this.props.workHour.length) {
       for (let i = (this.props.page - 1) * 4; i < this.props.page * 4; i++) {
         if (this.props.workHour[i]) {
           newList.push(
-            <p key={this.props.workHour[i]}>{`${this.props.workHour[i][0]}, ${
-              this.props.workHour[i][1]
-            } ${this.props.workHour[i][2]} ${this.props.workHour[i][3]}`}</p>
+            <p key={this.props.workHour[i]} className="detailTime">{`${
+              this.props.workHour[i][0]
+            }, ${this.props.workHour[i][1]} ${this.props.workHour[i][2]} ${
+              this.props.workHour[i][3]
+            }`}</p>
           );
         }
       }

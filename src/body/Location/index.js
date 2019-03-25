@@ -5,7 +5,7 @@ const Location = props => {
   return (
     <LocationWrapper>
       <h4>Location</h4>
-      <p>{location}</p>
+      <p className="detailLocation">{location}</p>
     </LocationWrapper>
     //<div>123{console.log(props)}</div>
   );
