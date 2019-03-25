@@ -3,6 +3,7 @@ import { ContactWrapper } from "./style";
 const Contact = props => {
   const { branch, branchPhoneNumber } = props;
   return (
+    //contact component
     <ContactWrapper>
       <h4>Branch</h4>
       <h4 className="branch">{branch}</h4>

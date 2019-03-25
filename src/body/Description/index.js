@@ -3,6 +3,7 @@ import { DescriptionComponent, DetailDescription, Pict } from "./style";
 const Description = props => {
   const { title, companyName, wagePerHour, workPeriod } = props;
   return (
+    //description component
     <DescriptionComponent>
       <Pict />
       <DetailDescription>

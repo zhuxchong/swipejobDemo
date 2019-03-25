@@ -6,6 +6,7 @@ class DetailTimeTable extends React.Component {
   render() {
     const { page, totalPage } = this.props;
     return (
+      //detail component
       <DetailTimeTableWrapper>
         {/* {console.log(this.props.match.params.id)} */}
         <h1>If you take this job you are agreeing to work ALL DAYS</h1>

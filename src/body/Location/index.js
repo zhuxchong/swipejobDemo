@@ -3,6 +3,7 @@ import { LocationWrapper } from "./style";
 const Location = props => {
   const { location } = props;
   return (
+    //location component
     <LocationWrapper>
       <h4>Location</h4>
       <p className="detailLocation">{location}</p>
